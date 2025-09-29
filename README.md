@@ -12,13 +12,13 @@ L'objectif principal de ce travail est de construire un cadre méthodologique co
 
 ## Objectif du projet
 
-Ce projet de fin d’études, intitulé \textbf{"Optimisation de la couverture du risque de change"}, a pour objectif principal de dépasser les approches classiques de gestion du risque en proposant une méthodologie intégrée et complète. L’idée principale est de montrer qu’une stratégie de couverture optimale ne se résume pas au simple choix d’un instrument financier, mais qu’elle repose sur une évaluation dynamique et prospective du risque. Dans cette optique, le projet s’appuie sur trois volets complémentaires: la prévision des taux de change à l’aide de modèles de Machine Learning, la mesure du risque au moyen de modèles économétriques et enfin, la mise en œuvre opérationnelle de la couverture à travers des instruments dérivés comme les options de change. L’approche adoptée vise donc à concevoir des stratégies de couverture sur mesure, non plus basées sur une vision statique du risque, mais calibrées sur une analyse dynamique des conditions de marché futures, permettant de sécuriser les marges tout en préservant des opportunités.
+Ce projet intitulé \textbf{"Optimisation de la couverture du risque de change"}, a pour objectif principal de dépasser les approches classiques de gestion du risque en proposant une méthodologie intégrée et complète. L’idée principale est de montrer qu’une stratégie de couverture optimale ne se résume pas au simple choix d’un instrument financier, mais qu’elle repose sur une évaluation dynamique et prospective du risque. Dans cette optique, le projet s’appuie sur trois volets complémentaires: la prévision des taux de change à l’aide de modèles de Machine Learning, la mesure du risque au moyen de modèles économétriques et enfin, la mise en œuvre opérationnelle de la couverture à travers des instruments dérivés comme les options de change. L’approche adoptée vise donc à concevoir des stratégies de couverture sur mesure, non plus basées sur une vision statique du risque, mais calibrées sur une analyse dynamique des conditions de marché futures, permettant de sécuriser les marges tout en préservant des opportunités.
 
 ---
 
 ## Structure du projet
 
-Afin d’atteindre l’objectif défini dans la section précédente, une méthodologie structurée a été élaborée, organisée en quatre étapes successives formant une chaîne cohérente d’analyse et de mise en œuvre :
+Afin d’atteindre l’objectif défini, une méthodologie structurée a été élaborée, organisée en quatre étapes successives formant une chaîne cohérente d’analyse et de mise en œuvre :
 
 1.  **Modélisation prédictive du taux de change:**
     La première étape consiste à anticiper l’évolution la plus probable du taux de change EUR/USD. Cette prévision repose sur le modèle Machine Learning de régression linéaire, qui fournit le scénario central autour duquel le risque pourra être évalué et géré.
