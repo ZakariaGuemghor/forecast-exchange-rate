@@ -1,4 +1,4 @@
-# Optimizing Foreign Exchange Risk Hedging for SMEs
+# Optimisation de la Couverture du Risque de Change
 
 ## Introduction
 
