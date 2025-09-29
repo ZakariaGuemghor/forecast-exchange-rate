@@ -44,13 +44,13 @@ Pour une compréhension approfondie de son fonctionnement, le schéma ci dessous
 
 **Description de l'Architecture :**
 
-a.  **Choix de la devise :** L'utilisateur choisit la paire de devises à analyser.
-b.  **Extraction des données :** Le système extrait les séries de prix historiques pour la paire choisie et les indicateurs macroéconomiques associés depuis les sources externes (Yahoo Finance, FRED API).
-c.  **Prétraitement :** Le jeu de données brutes est unifié puis passe par une étape de prétraitement (normalisation, interpolation).
-d.  **Alimentation du modèle de tendance :** Le dataset préparé alimente le pipeline du modèle de Régression Linéaire pour la prédiction de la tendance.
-e.  **Calcul des rendements :** Les données historiques préparées sont également utilisées pour le calcul des log-rendements nécessaires à l'entraînement du modèle de volatilité.
-f.  **Prévisions du modèle de tendance :** Le modèle de Régression Linéaire génère les prévisions des prix futurs ainsi que celles des variables exogènes.
-g.  **Injection des variables exogènes :** Les prévisions des variables exogènes (issues de l'étape f) sont injectées comme inputs dans la phase de prévision du modèle AR-X-ARCH.
-h.  **Prévisions du modèle de volatilité :** Le modèle $AR-X-ARCH$ génère les prévisions de volatilité conditionnelle future.
-i.  **Simulation et calcul de la VaR :** Les prévisions de prix (f) et de volatilité (h) sont combinées pour alimenter la simulation de Monte Carlo par MBG et calculer la Value at Risk.
-j.  **Valorisation de l'option :** La prévision de volatilité (h) est également utilisée comme paramètre d'entrée pour la valorisation de l'option de couverture.
+1.  **Choix de la devise :** L'utilisateur choisit la paire de devises à analyser.
+2.  **Extraction des données :** Le système extrait les séries de prix historiques pour la paire choisie et les indicateurs macroéconomiques associés depuis les sources externes (Yahoo Finance, FRED API).
+3.  **Prétraitement :** Le jeu de données brutes est unifié puis passe par une étape de prétraitement (normalisation, interpolation).
+4.  **Alimentation du modèle de tendance :** Le dataset préparé alimente le pipeline du modèle de Régression Linéaire pour la prédiction de la tendance.
+5.  **Calcul des rendements :** Les données historiques préparées sont également utilisées pour le calcul des log-rendements nécessaires à l'entraînement du modèle de volatilité.
+6.  **Prévisions du modèle de tendance :** Le modèle de Régression Linéaire génère les prévisions des prix futurs ainsi que celles des variables exogènes.
+7.  **Injection des variables exogènes :** Les prévisions des variables exogènes (issues de l'étape f) sont injectées comme inputs dans la phase de prévision du modèle AR-X-ARCH.
+8.  **Prévisions du modèle de volatilité :** Le modèle $AR-X-ARCH$ génère les prévisions de volatilité conditionnelle future.
+9.  **Simulation et calcul de la VaR :** Les prévisions de prix (f) et de volatilité (h) sont combinées pour alimenter la simulation de Monte Carlo par MBG et calculer la Value at Risk.
+10. **Valorisation de l'option :** La prévision de volatilité (h) est également utilisée comme paramètre d'entrée pour la valorisation de l'option de couverture.
