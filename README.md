@@ -1,3 +1,5 @@
+![Image de couverture du projet](images/image_couverture.png)
+
 # Optimisation de la Couverture du Risque de Change
 
 ## Introduction
@@ -38,7 +40,7 @@ Le backend du cadre automatisé mis en place pour la couverture du risque de cha
 
 Pour une compréhension approfondie de son fonctionnement, le schéma ci dessous détaille visuellement l'articulation de ces processus et les flux d’informations qui assurent leur cohérence.
 
-![Architecture du cadre automatisé de la couverture du risque de change](schema_backend.png)`
+![Architecture du cadre automatisé de la couverture du risque de change](images/schema_backend.png)
 
 ---
 
