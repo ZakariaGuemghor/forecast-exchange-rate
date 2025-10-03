@@ -8,6 +8,8 @@ La gestion du risque de change constitue un défi majeur pour les petites et moy
 
 L'objectif principal de ce travail est de construire un cadre méthodologique complet qui combine la prévision des tendances par Machine Learning et la modélisation de la volatilité par le modèle économétrique *AR-X-GARCH* afin d’obtenir une estimation du risque (Value at Risk) qui prend en compte les informations du marché et les évolutions futures, calculée par une simulation de Monte Carlo. L'objectif final est de démontrer comment cette mesure de risque dynamique permet de concevoir des stratégies de couverture par options de change plus robustes et flexibles, offrant ainsi aux entreprises un outil d'aide à la décision pour une gestion de risque fiable et stratégique.
 
+**➡️ [Voir le Notebook : `eurusd-risk-analysis.ipynb`](./eurusd-risk-analysis.ipynb)**
+
 ---
 
 ## Objectif du projet
